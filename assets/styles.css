@@ -230,7 +230,7 @@ a {
   display: block;
   margin: auto;
   margin-top: 3rem;
-  width: 70rem;
+  white-space: normal;
 }
 
 .info_tabs {
@@ -293,7 +293,25 @@ a {
 
 .tabcontent {
   display: none;
-  border: solid;
+  
+  /* border: solid; */
+}
+.tab-content{
+  display:flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.tab-content div{
+  margin-right: 5rem;
+  padding-left: 2rem;
+}
+.tab-content .tabtext {
+  /* padding-left: 1rem; */
+  margin: 1rem;
+}
+.tabpic img{
+  margin-top: 1rem;
+  width: 10rem;
 }
 
 

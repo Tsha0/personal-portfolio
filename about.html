@@ -22,10 +22,10 @@
 
            <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
-                    <li><a href="/projects.html" class="nav_link">Projects</a></li>
-                    <li><a href="/about.html" class="nav_link">About</a></li>
-                    <li><a href="/contact.html" class="nav_link">Contact</a></li>
-                    <li><a href="/assets/pictures/JasonShaoResumeDec2023.pdf" target="_blank" class="nav_link">Resume</a></li>
+                    <li><a href="/personal-portfolio/projects.html" class="nav_link">Projects</a></li>
+                    <li><a href="/personal-portfolio/about.html" class="nav_link">About</a></li>
+                    <li><a href="/personal-portfolio/contact.html" class="nav_link">Contact</a></li>
+                    <li><a href="/personal-portfolio/assets/pictures/JasonShaoResumeDec2023.pdf" target="_blank" class="nav_link">Resume</a></li>
                 </ul>
 
            </div>
@@ -35,9 +35,7 @@
         <header>About Me</header>
         <div class="basicinfo">
             <div class="selfinfo">
-                <p>Hi! Welcome to my corner of the digital World.
-                
-                </p>
+                <p>Hi! Welcome to my corner of the digital World.</p>
                 <p>My name is Jason Shao, a passionate software developer living in Montreal, Canada. I am currently a U1 Software Engineering student studying at McGill University. My fascination with programming has been the driving force behind my creation of this website.</p>
             </div>
 
@@ -68,16 +66,80 @@
             </div>
 
             <div class="tabcontent" id="education">
-                <p>education</p>
+                <div class="tab-content">
+                    <div>
+                        <h3>University</h3>
+                        <p class="tabtext">
+                            <p>Enrolled in Software Engineering at McGill University. (Sep 2022 - May 2026)</p>
+                            <p>CGPA: 3.7/4.00</p>
+                        </p>
+                        <br>
+                        <h3>Secondary</h3>
+                        <p class="tabtext">
+                            <p>Stanstead College (Sep 2019 - June 2022)</p>
+                            <p>Recipient of the Arthur E. Curtis Jr. Award (awarded to the top student entering an engineering program)</p>
+                        </p>
+                    </div>
+                    <div class="tabpic">
+                        <img src="assets/pictures/mcgilllogo.png" alt="mcgill-logo">
+                    </div>  
+                </div>
             </div>
             <div class="tabcontent" id="experience">
-                <p>experience</p>
+                <div class="tab-content">
+                    <div>
+                        <h3>Jaguar Land Rover (May 2023 – Aug 2023)</h3>
+                        <p class="tabtext">
+                            <p>Assisted in the development and execution of procurement strategies, negotiated with suppliers to optimize cost savings and efficiency, and actively engaged in workshops, such as AWS cloud services.</p>
+                        </p>
+                        <br>
+                        <h3>Langying Education (Jun 2021 – Aug 2021)</h3>
+                        <p class="tabtext">
+                            <p>Developed the teacher-student interaction software using JavaScript, HTML/CSS, and VUE.js framework to beautify and improve the user experience.</p>
+                        </p>
+                    </div>
+                    <div class="tabpic">
+                        <img src="assets/pictures/jlrlogo.jpg" alt="jlr-logo">
+                    </div>
+                </div>
             </div>
             <div class="tabcontent" id="programming">
-                <p>programming</p>
+                <div class="tab-content">
+                    <div>
+                        <h3>Languages</h3>
+                        <p class="tabtext">
+                            <p>Advanced: JavaScript, HTML, CSS, Python</p>
+                            <p>Intermediate: Java, C#, OCaml, VHDL</p>
+                            <p>Beginner: C, BASH, C++</p>
+                        </p>
+                        <br>
+                        <h3>Tools</h3>
+                        <p class="tabtext">
+                            <p>Github, Git, Unity, Azure Web Service, Flask, Django, Vue.js, Visual Studio Code, Arduino </p>
+                        </p>
+                    </div>
+                    <div class="tabpic">
+                        <img>
+                    </div>
+                </div>
             </div>
             <div class="tabcontent" id="hobbies">
-                <p>hobbies</p>
+                <div class="tab-content">
+                    <div>
+                        <h3>Sports</h3>
+                        <p class="tabtext">
+                            <p>Basketball, Squash, Golf</p>
+                        </p>
+                        <br>
+                        <h3>Movies/TV shows</h3>
+                        <p class="tabtext">
+                            <p>Lord of the Rings, Interstellar, Shawshanks Redemption, Sherlock (Benedict Cumberbatch)</p>
+                        </p>
+                    </div>
+                    <div class="tabpic">
+                        <img>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -93,9 +155,7 @@
         </div>
     </div>
     <!-- JS -->
-    <script src="/assets/main.js">
-        
-        
-    </script>
+    <script src="/assets/main.js"></script>
+    <script src="/assets/switchtab.js"></script>
 </body>
 </html>
