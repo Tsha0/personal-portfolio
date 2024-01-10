@@ -229,8 +229,9 @@ a {
 .selfinfo{
   display: block;
   margin: auto;
+  align-items: center;
   margin-top: 3rem;
-  white-space: normal;
+  width: 50rem;
 }
 
 .info_tabs {
@@ -293,12 +294,14 @@ a {
 
 .tabcontent {
   display: none;
-  
+  margin: auto;
+  max-width: 60rem;
   /* border: solid; */
 }
 .tab-content{
   display:flex;
   justify-content: center;
+  
   margin-bottom: 4rem;
 }
 .tab-content div{
