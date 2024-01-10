@@ -339,6 +339,9 @@ a {
     background-color: var(--black-color);
     padding-top: 1rem;
   }
+  .selfprotrait {
+    width: 15rem;
+  }
 }
 
 .nav_link {
@@ -372,6 +375,7 @@ a {
   opacity: 1;
   transform: rotate(90deg);
 }
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
