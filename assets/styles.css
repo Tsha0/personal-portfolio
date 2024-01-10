@@ -108,7 +108,7 @@ a {
 
 .nav_toggle {
   position: relative;
-  border-style: solid;
+  /* border-style: solid; */
   width: 32px;
   height: 32px;
 }
