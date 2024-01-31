@@ -848,48 +848,6 @@ a:hover {
   }
 }
 
-/*  */
-/* Project */
-/*  */
-.projects {
-  /* margin-top: 7rem; */
-  /* color: #0078ff; */
-  display:block;
-  margin-bottom: 7rem;
-}
-
-.projects img {
-  width: 25rem;
-}
-.projects header {
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-}
-.projects_info {
-  display:flex;
-  justify-content: center;
-  /* border-style: solid; */
-  /* padding-left: 20rem;
-  padding-right: 5rem; */
-
-}
-.description_text {
-  margin-top: 2rem;
-}
-.description {
-  display: inline-block;
-  margin-top: 3rem;
-  width: 30rem;
-  padding-right: 5rem;
-}
-.projects h3 {
-  margin-top: 2rem;
-}
-.projects h2 {
-  font-size: 2rem;
-}
-
 
 /*--------------------------------------------------------------
 # About
@@ -939,6 +897,12 @@ a:hover {
 /* Education */
 /*  */
 
+.resume {
+  margin-bottom: 150px;
+}
+.resume .section-title {
+  margin-bottom: 3rem;
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -997,6 +961,32 @@ a:hover {
   border: 2px solid #1f5297;
 }
 
+/*  */
+/* Project */
+/*  */
+
+.project img {
+  width: 25rem;
+}
+
+.project .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.project .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
 
 
 
